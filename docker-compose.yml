@@ -12,6 +12,7 @@ services:
       - MYSQL_PASSWORD
 
   wordpress:
+    container_name: wordpress
     depends_on:
       - db
     build:

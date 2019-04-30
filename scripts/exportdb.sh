@@ -1,0 +1,1 @@
+docker exec wordpress wp --path=/usr/src/wordpress db export
